@@ -1,0 +1,24 @@
+configuration {
+    width: 30%;
+    font: "monospace 12";
+}
+
+colors {
+    background: #2e3440;
+    foreground: #d8dee9;
+    accent: #88c0d0;
+}
+
+window {
+    background: #2e3440;
+}
+
+group {
+    children: [ main ];
+}
+
+main {
+    lines: 10;
+}
+
+@theme "/home/master/.config/rofi/themes/spotlight.rasi"
